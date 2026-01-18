@@ -5,7 +5,10 @@
     background-color: white;
     padding: 16px 120px;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+}
 nav img {
     width: 139px;
     height: 60px;
