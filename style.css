@@ -234,3 +234,28 @@ nav img {
     gap: 6px;
     padding-bottom: 16px;
 }
+.early-access-section {
+    text-align: center;
+    background-color: #F7F6F2;
+    margin: 2px 120px 120px;
+}
+
+.early-access-section h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #001931;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.early-access-p1,
+.early-access-p2 {
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.early-access-p2 {
+    padding-bottom: 80px;
+}
