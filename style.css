@@ -1,3 +1,4 @@
+
 .navbar {
     display: flex;
     align-items: center;
@@ -5,10 +6,7 @@
     background-color: white;
     padding: 16px 120px;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 nav img {
     width: 139px;
     height: 60px;
@@ -195,4 +193,9 @@ nav img {
 
 .brain-container {
     padding: 102px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
