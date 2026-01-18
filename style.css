@@ -87,3 +87,109 @@ nav img {
     font-family: Arial, Helvetica, sans-serif;
     width: 645px;
 }
+.heroBtn-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.heroBtn2 {
+    display: flex;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.heroBtn3 {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* notes section */
+.notes-section {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes-title {
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+
+.notes-text {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.notes-card-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.notes-card {
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.notes-card h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.notes-card img {
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    background-color: #F95555;
+    padding: 10px;
+}
+
+.notes-card p {
+    text-align: center;
+    color: #627382;
+    padding: 0 15px;
+}
+
+.second-brain-section {
+    display: flex;
+    gap: 60px;
+    padding: 100px 120px;
+}
+
+.brain-container {
+    padding: 102px 0;
+}
