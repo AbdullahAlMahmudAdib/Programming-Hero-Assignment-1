@@ -36,3 +36,54 @@ nav img {
     font-size: 16px;
     cursor: pointer;
 }
+.hero-parent {
+    background-image: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroBtn1 {
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    background-color: white;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.banner-title {
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    width: 770px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.highText {
+    color: #30B868;
+}
+
+.banner-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 645px;
+}
